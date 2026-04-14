@@ -1,0 +1,13 @@
+{
+  "shell_port": 55711,
+  "iopub_port": 55712,
+  "stdin_port": 55713,
+  "control_port": 55715,
+  "hb_port": 55714,
+  "ip": "127.0.0.1",
+  "key": "45b45447-50d574941fdbbcc5975aa77c",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/Users/pr/Gennaker/Channels/DSD/Files/cryptography 2.ipynb"
+}

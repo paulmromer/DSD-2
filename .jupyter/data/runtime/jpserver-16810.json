@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "password": false,
+  "pid": 16810,
+  "port": 8978,
+  "root_dir": "/Users/pr/Gennaker/Channels/DSD",
+  "secure": false,
+  "sock": "",
+  "token": "ddbe1e54dc5f0f2bd266989a0c4f5af6763cb7956cacb494",
+  "url": "http://localhost:8978/",
+  "version": "2.17.0"
+}

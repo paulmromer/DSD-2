@@ -1,0 +1,206 @@
+[[shortcuts]]
+command = "notebook:copy-cell"
+keys = [
+    "C",
+]
+selector = ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus"
+disabled = true
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:cut-cell"
+keys = [
+    "X",
+]
+selector = ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus"
+disabled = true
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:paste-cell-below"
+keys = [
+    "V",
+]
+selector = ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus"
+disabled = true
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:undo-cell-action"
+keys = [
+    "Z",
+]
+selector = ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus"
+disabled = true
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:change-cell-to-markdown"
+keys = [
+    "M",
+]
+selector = ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus"
+disabled = true
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:change-cell-to-code"
+keys = [
+    "Y",
+]
+selector = ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus"
+disabled = true
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:change-cell-to-raw"
+keys = [
+    "R",
+]
+selector = ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus"
+disabled = true
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:insert-cell-above"
+keys = [
+    "A",
+]
+selector = ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus"
+disabled = true
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:insert-cell-below"
+keys = [
+    "B",
+]
+selector = ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus"
+disabled = true
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "kernelmenu:restart-and-clear"
+keys = [
+    "Alt ,",
+]
+selector = "body"
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "gennaker-tools:restart-run-stateless"
+keys = [
+    "Alt .",
+]
+selector = "body"
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:restart-run-all"
+keys = [
+    "Alt /",
+]
+selector = "body"
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:cut-cell"
+keys = [
+    "Alt X",
+]
+selector = ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus"
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:copy-cell"
+keys = [
+    "Alt C",
+]
+selector = ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus"
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:paste-cell-below"
+keys = [
+    "Alt V",
+]
+selector = ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus"
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:undo-cell-action"
+keys = [
+    "Alt Z",
+]
+selector = "body"
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:change-cell-to-markdown"
+keys = [
+    "Alt M",
+]
+selector = "body"
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:change-cell-to-code"
+keys = [
+    "Alt P",
+]
+selector = "body"
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:change-cell-to-raw"
+keys = [
+    "Alt R",
+]
+selector = "body"
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:insert-cell-above"
+keys = [
+    "Alt A",
+]
+selector = "body"
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "notebook:insert-cell-below"
+keys = [
+    "Alt B",
+]
+selector = "body"
+
+[shortcuts.args]
+
+[[shortcuts]]
+command = "jupyterlab_code_formatter:format"
+keys = [
+    "Alt F",
+]
+selector = "body"
+
+[shortcuts.args]

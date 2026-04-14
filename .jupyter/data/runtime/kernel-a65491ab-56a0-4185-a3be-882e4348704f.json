@@ -1,0 +1,13 @@
+{
+  "shell_port": 60593,
+  "iopub_port": 60594,
+  "stdin_port": 60595,
+  "control_port": 60597,
+  "hb_port": 60596,
+  "ip": "127.0.0.1",
+  "key": "fbb61881-ba3fd6f3b6a9121908df5364",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/Users/pr/Gennaker/Channels/DSD/Files/3_ed25519.ipynb"
+}

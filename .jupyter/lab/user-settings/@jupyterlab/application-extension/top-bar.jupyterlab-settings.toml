@@ -1,0 +1,4 @@
+toolbar = [
+    { name = "spacer", type = "spacer", rank = 50, disabled = true },
+    { name = "workspaceIndicator", rank = 1000, disabled = true },
+]

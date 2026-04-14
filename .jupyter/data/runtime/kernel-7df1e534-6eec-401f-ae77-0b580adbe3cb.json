@@ -1,0 +1,13 @@
+{
+  "shell_port": 53287,
+  "iopub_port": 53288,
+  "stdin_port": 53289,
+  "control_port": 53291,
+  "hb_port": 53290,
+  "ip": "127.0.0.1",
+  "key": "46dfa84c-d7c7095b027633e42e6d561d",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/Users/pr/Gennaker/empty_for_testing/Files/ssh_keys.ipynb"
+}

@@ -1,0 +1,19 @@
+{
+  allowFileUploads: true,
+  autoOpenUploads: false,
+  filterDirectories: true,
+  maxAutoOpenSizeMB: 50,
+  navigateToCurrentDirectory: true,
+  showFileCheckboxes: false,
+  showFileSizeColumn: false,
+  showFullPath: true,
+  showHiddenFiles: true,
+  showLastModifiedColumn: true,
+  singleClickNavigation: true,
+  sortNotebooksFirst: true,
+  useFuzzyFilter: false,
+  breadcrumbs: {
+    minimumLeftItems: 0,
+    minimumRightItems: 2,
+  },
+}

@@ -1,0 +1,2 @@
+[flake8]
+exclude = .venv, .jupyter, .ipython_checkpoints, .ipython, .local-libraries, .virtual_documents

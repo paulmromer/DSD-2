@@ -1,0 +1,309 @@
+[[menus]]
+disabled = true
+id = "jp-mainmenu-file"
+
+[[menus]]
+disabled = true
+id = "jp-mainmenu-edit"
+
+[[menus]]
+disabled = true
+id = "jp-mainmenu-run"
+
+[[menus]]
+disabled = true
+id = "jp-mainmenu-kernel"
+
+[[menus]]
+disabled = true
+id = "jp-mainmenu-tabs"
+
+[[menus]]
+disabled = true
+id = "jp-mainmenu-view"
+
+[[menus]]
+disabled = false
+id = "jp-mainmenu-file2"
+label = "File"
+mnemonic = -1
+rank = 1
+
+[[menus.items]]
+command = "launcher:create"
+rank = 5
+
+[[menus.items]]
+type = "submenu"
+rank = 1
+
+[menus.items.submenu]
+id = "jp-mainmenu-file-new"
+label = "New"
+items = [
+    { command = "console:create", rank = 20 },
+    { command = "notebook:create-new", rank = 10 },
+    { command = "terminal:create-new", rank = 10 },
+    { command = "fileeditor:create-new", rank = 10 },
+    { command = "fileeditor:create-new-markdown-file", rank = 10 },
+]
+
+[[menus.items]]
+command = "docmanager:save"
+rank = 13
+
+[[menus.items]]
+command = "docmanager:save-as"
+rank = 14
+
+[[menus.items]]
+type = "submenu"
+rank = 20
+
+[menus.items.submenu]
+id = "jp-mainmenu-file-workspaces"
+label = "Workspaces"
+items = [
+    { command = "workspace-ui:open", rank = 0 },
+    { command = "workspace-ui:create-new", rank = 1 },
+    { command = "workspace-ui:clone", rank = 2 },
+    { command = "workspace-ui:rename", rank = 3 },
+    { command = "workspace-ui:save", rank = 4 },
+    { command = "workspace-ui:save-as", rank = 5 },
+    { command = "workspace-ui:import", rank = 6 },
+    { command = "workspace-ui:export", rank = 7 },
+    { type = "separator", rank = 8 },
+    { command = "workspace-ui:reset", rank = 9 },
+    { command = "workspace-ui:delete", rank = 10 },
+]
+
+[[menus.items]]
+disabled = false
+command = "filemenu:shutdown"
+rank = 99
+
+[[menus]]
+disabled = false
+id = "jp-mainmenu-edit2"
+label = "Edit"
+mnemonic = -1
+rank = 2
+
+[[menus.items]]
+command = "documentsearch:start"
+rank = 10
+
+[[menus.items]]
+command = "documentsearch:highlightNext"
+rank = 20
+
+[[menus.items]]
+command = "documentsearch:highlightPrevious"
+rank = 30
+
+[[menus.items]]
+type = "submenu"
+rank = 40
+
+[menus.items.submenu]
+id = "jp-mainmenu-text_edit:empty"
+label = "Shortcut Reminders"
+
+[[menus.items.submenu.items]]
+type = "submenu"
+rank = 0
+
+[menus.items.submenu.items.submenu]
+id = "jp-mainmenu-text_edit:empty2"
+label = "Use Shortcuts, Not These Menu Items"
+items = []
+
+[[menus.items.submenu.items]]
+command = "filebrowser:copy"
+rank = 200
+
+[[menus.items.submenu.items]]
+command = "filebrowser:cut"
+rank = 210
+
+[[menus.items.submenu.items]]
+command = "filebrowser:paste"
+rank = 220
+
+[[menus.items]]
+command = "jupyterlab_code_formatter:format"
+rank = 50
+
+[[menus]]
+disabled = false
+id = "jp-mainmenu-cell"
+items = [
+    { command = "notebook:cut-cell", rank = 5 },
+    { command = "notebook:copy-cell", rank = 5 },
+    { command = "notebook:paste-cell-below", rank = 5 },
+    { type = "separator", rank = 10 },
+    { command = "notebook:undo-cell-action", rank = 15 },
+    { command = "notebook:redo-cell-action", rank = 17 },
+    { type = "separator", rank = 20 },
+    { command = "notebook:insert-cell-above", rank = 25 },
+    { command = "notebook:insert-cell-below", rank = 27 },
+    { type = "separator", rank = 30 },
+    { command = "notebook:merge-cell-below", rank = 33 },
+    { command = "notebook:split-cell-at-cursor", rank = 36 },
+    { type = "separator", rank = 40 },
+    { command = "notebook:change-cell-to-markdown", rank = 43 },
+    { command = "notebook:change-cell-to-code", rank = 46 },
+    { command = "notebook:change-cell-to-raw", rank = 48 },
+]
+label = "Cell"
+mnemonic = -1
+rank = 3
+
+[[menus]]
+disabled = false
+id = "jp-mainmenu-view2"
+label = "View"
+mnemonic = -1
+rank = 4
+
+[[menus.items]]
+command = "filebrowser:toggle-hidden-files"
+rank = 0
+
+[[menus.items]]
+command = "apputils:activate-command-palette"
+rank = 1
+
+[[menus.items]]
+command = "viewmenu:line-numbering"
+rank = 2
+
+[[menus.items]]
+command = "viewmenu:match-brackets"
+rank = 3
+
+[[menus.items]]
+command = "viewmenu:word-wrap"
+rank = 4
+
+[[menus.items]]
+type = "submenu"
+rank = 10
+disabled = false
+
+[menus.items.submenu]
+id = "jp-mainmenu-view-appearance"
+label = "Appearance"
+items = [
+    { command = "application:toggle-mode", rank = 0 },
+    { command = "application:toggle-fullscreen-mode", rank = 0 },
+    { type = "separator", rank = 10 },
+    { command = "application:toggle-left-area", rank = 11 },
+    { command = "application:toggle-side-tabbar", rank = 12, args = { side = "left" } },
+    { command = "application:toggle-right-area", rank = 13 },
+    { command = "application:toggle-side-tabbar", rank = 14, args = { side = "right" } },
+    { command = "application:toggle-header", rank = 15 },
+    { type = "separator", rank = 50 },
+    { command = "application:reset-layout", rank = 51 },
+    { command = "statusbar:toggle", rank = 15 },
+]
+
+[[menus]]
+disabled = false
+id = "jp-mainmenu-run2"
+items = [
+    { command = "kernelmenu:restart-and-clear", rank = 3 },
+    { command = "gennaker-tools:restart-run-stateless", rank = 6 },
+    { command = "notebook:restart-run-all", rank = 9 },
+    { type = "separator", rank = 10 },
+    { command = "runmenu:run", rank = 10 },
+    { command = "notebook:run-cell-and-insert-below", rank = 10 },
+    { command = "notebook:run-cell", rank = 10 },
+    { type = "separator", rank = 20 },
+    { type = "separator", rank = 200 },
+    { command = "kernelmenu:interrupt", rank = 1000 },
+]
+label = "Run"
+mnemonic = -1
+rank = 5
+
+[[menus]]
+disabled = false
+id = "jp-mainmenu-help"
+items = [
+    { command = "helpmenu:open", rank = 1000 },
+    { type = "separator", rank = 0.1 },
+    { command = "apputils:display-shortcuts", rank = 0.1 },
+    { type = "separator", rank = 0.1 },
+    { command = "help:about", rank = 0 },
+    { type = "separator", rank = 0 },
+    { type = "separator", rank = 2 },
+    { command = "help:jupyter-forum", rank = 2 },
+    { type = "separator", rank = 2 },
+    { type = "separator", rank = 0.1 },
+    { command = "inspector:open", rank = 0.1 },
+    { type = "separator", rank = 0.1 },
+]
+label = "Help"
+mnemonic = -1
+rank = 1000
+
+[[menus]]
+disabled = false
+id = "jp-mainmenu-settings"
+label = "Settings"
+mnemonic = -1
+rank = 999
+
+[[menus.items]]
+command = "settingeditor:open"
+rank = 1000
+
+[[menus.items]]
+type = "submenu"
+rank = 0
+
+[menus.items.submenu]
+id = "jp-mainmenu-settings-apputilstheme"
+label = "Theme"
+items = [
+    { command = "apputils:adaptive-theme" },
+    { disabled = true, command = "apputils:theme-scrollbars" },
+    { disabled = true, command = "apputils:incr-font-size", args = { key = "code-font-size" } },
+    { disabled = true, command = "apputils:decr-font-size", args = { key = "code-font-size" } },
+    { disabled = true, command = "apputils:incr-font-size", args = { key = "content-font-size1" } },
+    { disabled = true, command = "apputils:decr-font-size", args = { key = "content-font-size1" } },
+    { disabled = true, command = "apputils:incr-font-size", args = { key = "ui-font-size1" } },
+    { disabled = true, command = "apputils:decr-font-size", args = { key = "ui-font-size1" } },
+]
+
+[[menus.items]]
+type = "separator"
+rank = 9
+
+[[menus.items]]
+disabled = true
+type = "submenu"
+rank = 9
+
+[menus.items.submenu]
+id = "jp-mainmenu-settings-consoleexecute"
+label = "Console Run Keystroke"
+items = [
+    { command = "console:interaction-mode", args = { interactionMode = "terminal" } },
+    { command = "console:interaction-mode", args = { interactionMode = "notebook" } },
+]
+
+[[menus.items]]
+disabled = true
+command = "extensionmanager:toggle"
+rank = 100
+
+[[menus.items]]
+disabled = true
+type = "submenu"
+rank = 1
+
+[menus.items.submenu]
+id = "jp-mainmenu-settings-language"
+label = "Language"

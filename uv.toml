@@ -1,0 +1,7 @@
+constraint-dependencies = []
+
+
+[[index]]
+name = "local-libraries"
+url = ".local-libraries"
+format = "flat"

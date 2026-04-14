@@ -1,0 +1,7 @@
+{
+  scrollPastEnd: true,
+  toolbar: [],
+  editorConfig: {
+    codeFolding: false,
+  },
+}

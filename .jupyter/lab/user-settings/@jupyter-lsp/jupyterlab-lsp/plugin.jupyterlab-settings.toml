@@ -1,0 +1,274 @@
+logAllCommunication = false
+loggingConsole = "browser"
+loggingLevel = "warn"
+setTrace = "__NULL__"
+
+[language_servers.basedpyright]
+disable = true
+priority = 50
+
+[language_servers.basedpyright.serverSettings]
+"basedpyright.analysis.autoImportCompletions" = true
+"basedpyright.analysis.autoSearchPaths" = true
+"basedpyright.analysis.extraPaths" = []
+"basedpyright.analysis.stubPath" = "typings"
+"basedpyright.analysis.baselineFile" = ""
+"basedpyright.analysis.diagnosticMode" = "openFilesOnly"
+"basedpyright.analysis.fileEnumerationTimeout" = 10
+"basedpyright.analysis.logLevel" = "Information"
+"basedpyright.analysis.typeCheckingMode" = "standard"
+"basedpyright.analysis.typeshedPaths" = []
+"basedpyright.analysis.useLibraryCodeForTypes" = false
+"basedpyright.disableLanguageServices" = false
+"basedpyright.disableTaggedHints" = false
+"basedpyright.disableOrganizeImports" = false
+"basedpyright.disablePullDiagnostics" = false
+"basedpyright.pythonPath" = "python"
+"basedpyright.venvPath" = ""
+"basedpyright.importStrategy" = "fromEnvironment"
+"basedpyright.analysis.inlayHints.variableTypes" = true
+"basedpyright.analysis.inlayHints.callArgumentNames" = true
+"basedpyright.analysis.inlayHints.callArgumentNamesMatching" = false
+"basedpyright.analysis.inlayHints.functionReturnTypes" = true
+"basedpyright.analysis.inlayHints.genericTypes" = false
+"basedpyright.analysis.useTypingExtensions" = false
+"basedpyright.analysis.autoFormatStrings" = true
+
+[language_servers.basedpyright.serverSettings."basedpyright.analysis.diagnosticSeverityOverrides"]
+reportGeneralTypeIssues = "error"
+reportPropertyTypeMismatch = "none"
+reportFunctionMemberAccess = "none"
+reportMissingImports = "error"
+reportMissingModuleSource = "warning"
+reportInvalidTypeForm = "error"
+reportMissingTypeStubs = "none"
+reportImportCycles = "none"
+reportUnusedImport = "none"
+reportUnusedClass = "none"
+reportUnusedFunction = "none"
+reportUnusedVariable = "none"
+reportDuplicateImport = "none"
+reportWildcardImportFromLibrary = "warning"
+reportAbstractUsage = "error"
+reportArgumentType = "error"
+reportAssertTypeFailure = "error"
+reportAssignmentType = "error"
+reportAttributeAccessIssue = "error"
+reportCallIssue = "error"
+reportInconsistentOverload = "error"
+reportIndexIssue = "error"
+reportInvalidTypeArguments = "error"
+reportNoOverloadImplementation = "error"
+reportOperatorIssue = "error"
+reportOptionalSubscript = "error"
+reportOptionalMemberAccess = "error"
+reportOptionalCall = "error"
+reportOptionalIterable = "error"
+reportOptionalContextManager = "error"
+reportOptionalOperand = "error"
+reportRedeclaration = "error"
+reportReturnType = "error"
+reportTypedDictNotRequiredAccess = "error"
+reportUntypedFunctionDecorator = "none"
+reportUntypedClassDecorator = "none"
+reportUntypedBaseClass = "none"
+reportUntypedNamedTuple = "none"
+reportPrivateUsage = "none"
+reportTypeCommentUsage = "none"
+reportPrivateImportUsage = "error"
+reportConstantRedefinition = "none"
+reportDeprecated = "none"
+reportIncompatibleMethodOverride = "none"
+reportIncompatibleVariableOverride = "none"
+reportInconsistentConstructor = "none"
+reportOverlappingOverload = "none"
+reportPossiblyUnboundVariable = "error"
+reportMissingSuperCall = "none"
+reportUninitializedInstanceVariable = "none"
+reportInvalidStringEscapeSequence = "warning"
+reportUnknownParameterType = "none"
+reportUnknownArgumentType = "none"
+reportUnknownLambdaType = "none"
+reportUnknownVariableType = "none"
+reportUnknownMemberType = "none"
+reportMissingParameterType = "none"
+reportMissingTypeArgument = "none"
+reportInvalidTypeVarUse = "warning"
+reportCallInDefaultInitializer = "none"
+reportUnnecessaryIsInstance = "none"
+reportUnnecessaryCast = "none"
+reportUnnecessaryComparison = "none"
+reportUnnecessaryContains = "none"
+reportAssertAlwaysTrue = "warning"
+reportSelfClsParameterName = "warning"
+reportImplicitStringConcatenation = "none"
+reportInvalidStubStatement = "none"
+reportIncompleteStub = "none"
+reportUndefinedVariable = "error"
+reportUnboundVariable = "error"
+reportUnhashable = "error"
+reportUnsupportedDunderAll = "warning"
+reportUnusedCallResult = "none"
+reportUnusedCoroutine = "error"
+reportUnusedExcept = "error"
+reportUnusedExpression = "warning"
+reportUnnecessaryTypeIgnoreComment = "none"
+reportMatchNotExhaustive = "none"
+reportUnreachable = "none"
+reportShadowedImports = "none"
+reportImplicitOverride = "none"
+reportAny = "none"
+reportExplicitAny = "none"
+reportIgnoreCommentWithoutRule = "none"
+reportPrivateLocalImportUsage = "none"
+reportImplicitRelativeImport = "none"
+reportInvalidCast = "none"
+reportUnsafeMultipleInheritance = "none"
+reportUnusedParameter = "hint"
+reportImplicitAbstractClass = "none"
+reportIncompatibleUnannotatedOverride = "none"
+reportUnannotatedClassAttribute = "none"
+reportInvalidAbstractMethod = "none"
+
+[language_servers.julia-language-server]
+disable = true
+priority = 50
+
+[language_servers.julia-language-server.serverSettings]
+"julia.lint.run" = true
+"julia.lint.missingrefs" = "none"
+"julia.lint.disabledDirs" = [
+    "docs",
+    "test",
+]
+"julia.lint.call" = true
+"julia.lint.iter" = true
+"julia.lint.nothingcomp" = true
+"julia.lint.constif" = true
+"julia.lint.lazy" = true
+"julia.lint.datadecl" = true
+"julia.lint.typeparam" = true
+"julia.lint.modname" = true
+"julia.lint.pirates" = true
+"julia.lint.useoffuncargs" = true
+"julia.completionmode" = "qualify"
+
+[language_servers.pyrefly]
+disable = true
+priority = 50
+
+[language_servers.pyrefly.serverSettings]
+"python.pyrefly.disableTypeErrors" = false
+"python.pyrefly.disableLanguageServices" = false
+
+[language_servers.pylsp]
+priority = 50
+
+[language_servers.pylsp.serverSettings]
+"pylsp.configurationSources" = [
+    "pycodestyle",
+]
+"pylsp.plugins.flake8.config" = ".jupyter/flake8_config"
+"pylsp.plugins.flake8.enabled" = true
+"pylsp.plugins.flake8.exclude" = []
+"pylsp.plugins.flake8.executable" = "flake8"
+"pylsp.plugins.flake8.filename" = "*.ipynb"
+"pylsp.plugins.flake8.hangClosing" = "__NULL__"
+"pylsp.plugins.flake8.ignore" = [
+    "E303",
+    "E302",
+]
+"pylsp.plugins.flake8.maxLineLength" = "__NULL__"
+"pylsp.plugins.flake8.indentSize" = "__NULL__"
+"pylsp.plugins.flake8.perFileIgnores" = []
+"pylsp.plugins.flake8.select" = "__NULL__"
+"pylsp.plugins.jedi.extra_paths" = []
+"pylsp.plugins.jedi.env_vars" = "__NULL__"
+"pylsp.plugins.jedi.environment" = "__NULL__"
+"pylsp.plugins.jedi_completion.enabled" = true
+"pylsp.plugins.jedi_completion.include_params" = true
+"pylsp.plugins.jedi_completion.include_class_objects" = true
+"pylsp.plugins.jedi_completion.fuzzy" = true
+"pylsp.plugins.jedi_completion.eager" = true
+"pylsp.plugins.jedi_completion.resolve_at_most" = 25
+"pylsp.plugins.jedi_completion.cache_for" = [
+    "matplotlib",
+]
+"pylsp.plugins.jedi_definition.enabled" = true
+"pylsp.plugins.jedi_definition.follow_imports" = true
+"pylsp.plugins.jedi_definition.follow_builtin_imports" = true
+"pylsp.plugins.jedi_hover.enabled" = true
+"pylsp.plugins.jedi_references.enabled" = true
+"pylsp.plugins.jedi_signature_help.enabled" = true
+"pylsp.plugins.jedi_symbols.enabled" = true
+"pylsp.plugins.jedi_symbols.all_scopes" = true
+"pylsp.plugins.jedi_symbols.include_import_symbols" = true
+"pylsp.plugins.mccabe.enabled" = true
+"pylsp.plugins.mccabe.threshold" = 15
+"pylsp.plugins.preload.enabled" = true
+"pylsp.plugins.preload.modules" = []
+"pylsp.plugins.pycodestyle.enabled" = false
+"pylsp.plugins.pycodestyle.exclude" = []
+"pylsp.plugins.pycodestyle.filename" = []
+"pylsp.plugins.pycodestyle.select" = []
+"pylsp.plugins.pycodestyle.ignore" = []
+"pylsp.plugins.pycodestyle.hangClosing" = "__NULL__"
+"pylsp.plugins.pycodestyle.maxLineLength" = "__NULL__"
+"pylsp.plugins.pycodestyle.indentSize" = "__NULL__"
+"pylsp.plugins.pydocstyle.enabled" = false
+"pylsp.plugins.pydocstyle.convention" = "__NULL__"
+"pylsp.plugins.pydocstyle.addIgnore" = []
+"pylsp.plugins.pydocstyle.addSelect" = []
+"pylsp.plugins.pydocstyle.ignore" = []
+"pylsp.plugins.pydocstyle.select" = []
+"pylsp.plugins.pydocstyle.match" = "(?!test_).*\\.py"
+"pylsp.plugins.pydocstyle.matchDir" = "[^\\.].*"
+"pylsp.plugins.pyflakes.enabled" = false
+"pylsp.plugins.pylint.enabled" = false
+"pylsp.plugins.pylint.args" = []
+"pylsp.plugins.pylint.executable" = "__NULL__"
+"pylsp.plugins.rope_completion.enabled" = false
+"pylsp.plugins.rope_completion.eager" = false
+"pylsp.plugins.yapf.enabled" = false
+"pylsp.rope.extensionModules" = "__NULL__"
+"pylsp.rope.ropeFolder" = "__NULL__"
+
+[language_servers.r-languageserver]
+disable = true
+priority = 50
+
+[language_servers.r-languageserver.serverSettings]
+"r.lsp.debug" = true
+"r.lsp.log_file" = "__NULL__"
+"r.lsp.diagnostics" = true
+"r.lsp.rich_documentation" = true
+"r.lsp.snippet_support" = true
+"r.lsp.max_completions" = 200
+"r.lsp.lint_cache" = false
+"r.lsp.link_file_size_limit" = 16384
+
+[language_servers.texlab]
+disable = true
+priority = 50
+
+[language_servers.texlab.serverSettings]
+rootDirectory = "__NULL__"
+"build.executable" = "latexmk"
+"build.args" = [
+    "-pdf",
+    "-interaction=nonstopmode",
+    "-synctex=1",
+    "%f",
+]
+"build.onSave" = false
+"build.outputDirectory" = "."
+"build.forwardSearchAfter" = false
+"forwardSearch.executable" = "__NULL__"
+"forwardSearch.args" = []
+"chktex.onOpenAndSave" = false
+"chktex.onEdit" = false
+diagnosticsDelay = 300
+formatterLineLength = 80
+latexFormatter = "latexindent"
+"latexindent.local" = "__NULL__"
+"latexindent.modifyLineBreaks" = false

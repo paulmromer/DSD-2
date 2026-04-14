@@ -1,0 +1,502 @@
+{
+  contextMenu: [
+    {
+      command: "shortcuts:edit-keybinding",
+      selector: ".jp-Shortcuts-ShortcutKeysContainer",
+      disabled: false,
+    },
+    {
+      command: "running:kernel-new-console",
+      selector: ".jp-RunningSessions-item.jp-mod-kernel",
+      disabled: false,
+    },
+    {
+      command: "workspace-ui:clone",
+      selector: ".jp-RunningSessions-item.jp-mod-workspace",
+      rank: 0,
+      disabled: false,
+    },
+    {
+      command: "fileeditor:undo",
+      selector: ".jp-FileEditor",
+      disabled: false,
+    },
+    {
+      command: "shortcuts:delete-keybinding",
+      selector: ".jp-Shortcuts-ShortcutKeysContainer",
+      disabled: false,
+    },
+    {
+      command: "console:undo",
+      selector: ".jp-CodeConsole-promptCell",
+      disabled: false,
+    },
+    {
+      command: "notebook:cut-cell",
+      selector: ".jp-Notebook .jp-Cell",
+      disabled: false,
+    },
+    {
+      command: "running:kernel-new-notebook",
+      selector: ".jp-RunningSessions-item.jp-mod-kernel",
+      disabled: false,
+    },
+    {
+      command: "terminal:copy",
+      selector: ".jp-Terminal",
+      disabled: false,
+    },
+    {
+      command: "workspace-ui:rename",
+      selector: ".jp-RunningSessions-item.jp-mod-workspace",
+      disabled: false,
+    },
+    {
+      type: "submenu",
+      selector: ".jp-DirListing-item[data-isdir=\"false\"]",
+      disabled: false,
+      submenu: {
+        id: "jp-contextmenu-open-with",
+        label: "Open With",
+        items: [],
+      },
+    },
+    {
+      command: "filebrowser:open-browser-tab",
+      selector: ".jp-DirListing-item[data-isdir=\"false\"]",
+      disabled: false,
+    },
+    {
+      command: "fileeditor:redo",
+      selector: ".jp-FileEditor",
+      disabled: false,
+    },
+    {
+      command: "shortcuts:add-keybinding",
+      selector: ".jp-Shortcuts-Row",
+      disabled: false,
+    },
+    {
+      command: "console:redo",
+      selector: ".jp-CodeConsole-promptCell",
+      disabled: false,
+    },
+    {
+      command: "notebook:copy-cell",
+      selector: ".jp-Notebook .jp-Cell",
+      disabled: false,
+    },
+    {
+      command: "terminal:paste",
+      selector: ".jp-Terminal",
+      disabled: false,
+    },
+    {
+      command: "workspace-ui:reset",
+      selector: ".jp-RunningSessions-item.jp-mod-workspace",
+      disabled: false,
+    },
+    {
+      command: "fileeditor:cut",
+      selector: ".jp-FileEditor",
+      disabled: false,
+    },
+    {
+      command: "shortcuts:toggle-selectors",
+      selector: ".jp-Shortcuts-Top",
+      disabled: false,
+    },
+    {
+      command: "notebook:paste-cell-below",
+      selector: ".jp-Notebook .jp-Cell",
+      disabled: false,
+    },
+    {
+      type: "submenu",
+      selector: ".jp-RunningSessions-item.jp-mod-kernel",
+      disabled: false,
+      submenu: {
+        id: "jp-contextmenu-connected-sessions",
+        label: "Connected Sessions\u2026",
+        items: [],
+      },
+    },
+    {
+      command: "terminal:refresh",
+      selector: ".jp-Terminal",
+      disabled: false,
+    },
+    {
+      command: "workspace-ui:delete",
+      selector: ".jp-RunningSessions-item.jp-mod-workspace",
+      disabled: false,
+    },
+    {
+      command: "fileeditor:copy",
+      selector: ".jp-FileEditor",
+      disabled: false,
+    },
+    {
+      command: "shortcuts:reset-all",
+      selector: ".jp-Shortcuts-Top",
+      disabled: false,
+    },
+    {
+      command: "application:close",
+      selector: "#jp-main-dock-panel .lm-DockPanel-tabBar .lm-TabBar-tab",
+      disabled: false,
+    },
+    {
+      command: "application:close-other-tabs",
+      selector: "#jp-main-dock-panel .lm-DockPanel-tabBar .lm-TabBar-tab",
+      disabled: false,
+    },
+    {
+      command: "application:close-all",
+      selector: "#jp-main-dock-panel .lm-DockPanel-tabBar .lm-TabBar-tab",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-DirListing-item[data-isdir]",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-Notebook .jp-Cell",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-RunningSessions-item.jp-mod-kernel",
+      disabled: false,
+    },
+    {
+      command: "workspace-ui:export",
+      selector: ".jp-RunningSessions-item.jp-mod-workspace",
+      disabled: false,
+    },
+    {
+      command: "fileeditor:paste",
+      selector: ".jp-FileEditor",
+      disabled: false,
+    },
+    {
+      command: "application:close-right-tabs",
+      selector: "#jp-main-dock-panel .lm-DockPanel-tabBar .lm-TabBar-tab",
+      disabled: false,
+    },
+    {
+      command: "inspector:open",
+      selector: ".jp-CodeConsole-promptCell",
+      disabled: false,
+    },
+    {
+      command: "notebook:delete-cell",
+      selector: ".jp-Notebook .jp-Cell",
+      disabled: false,
+    },
+    {
+      command: "running:kernel-shut-down",
+      selector: ".jp-RunningSessions-item.jp-mod-kernel",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-RunningSessions-item.jp-mod-workspace",
+      disabled: false,
+    },
+    {
+      command: "fileeditor:select-all",
+      selector: ".jp-FileEditor",
+      disabled: false,
+    },
+    {
+      command: "recentmenu:reopen-last",
+      selector: "#jp-main-dock-panel .lm-DockPanel-tabBar .lm-TabBar-tab",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-Notebook .jp-Cell",
+      disabled: false,
+    },
+    {
+      command: "workspace-ui:import",
+      selector: ".jp-RunningSessions-section:has(.jp-mod-workspace)",
+      disabled: false,
+    },
+    {
+      command: "notebook:split-cell-at-cursor",
+      selector: ".jp-Notebook .jp-Cell",
+      disabled: false,
+    },
+    {
+      command: "workspace-ui:create-new",
+      selector: ".jp-RunningSessions-section:has(.jp-mod-workspace)",
+      disabled: false,
+    },
+    {
+      command: "notebook:merge-cells",
+      selector: ".jp-Notebook .jp-Cell",
+      disabled: false,
+    },
+    {
+      command: "notebook:merge-cell-above",
+      selector: ".jp-Notebook .jp-Cell",
+      disabled: false,
+    },
+    {
+      command: "notebook:merge-cell-below",
+      selector: ".jp-Notebook .jp-Cell",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-Notebook .jp-Cell",
+      disabled: false,
+    },
+    {
+      command: "fileeditor:create-console",
+      selector: ".jp-FileEditor",
+      disabled: false,
+    },
+    {
+      command: "filemenu:create-console",
+      selector: "[data-type=\"document-title\"].jp-mod-current",
+      disabled: false,
+    },
+    {
+      command: "console:clear",
+      selector: ".jp-CodeConsole-content",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-DirListing-item[data-isdir]",
+      disabled: false,
+    },
+    {
+      command: "notebook:create-output-view",
+      selector: ".jp-Notebook .jp-CodeCell",
+      disabled: false,
+    },
+    {
+      command: "filebrowser:shutdown",
+      selector: ".jp-DirListing-item[data-isdir=\"false\"].jp-mod-running",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-Notebook .jp-CodeCell",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-DirListing-item[data-isdir]",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".MathJax",
+      disabled: false,
+    },
+    {
+      command: "notebook:clear-cell-output",
+      selector: ".jp-Notebook .jp-CodeCell",
+      disabled: false,
+    },
+    {
+      command: "mathjax:clipboard",
+      selector: ".MathJax",
+      disabled: false,
+    },
+    {
+      command: "mathjax:scale",
+      selector: ".MathJax",
+      disabled: false,
+    },
+    {
+      command: "mathjax:scale",
+      selector: ".MathJax",
+      disabled: false,
+      args: {
+        scale: 1.5,
+      },
+    },
+    {
+      type: "separator",
+      selector: ".MathJax",
+      disabled: false,
+    },
+    {
+      command: "notebook:clear-all-cell-outputs",
+      selector: ".jp-Notebook",
+      disabled: false,
+    },
+    {
+      command: "docmanager:rename",
+      selector: "[data-type=\"document-title\"]",
+      disabled: false,
+    },
+    {
+      command: "console:toggle-show-all-kernel-activity",
+      selector: ".jp-CodeConsole",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-Notebook",
+      disabled: false,
+    },
+    {
+      command: "docmanager:duplicate",
+      selector: "[data-type=\"document-title\"]",
+      disabled: false,
+    },
+    {
+      command: "notebook:enable-output-scrolling",
+      selector: ".jp-Notebook",
+      disabled: false,
+    },
+    {
+      command: "docmanager:delete",
+      selector: "[data-type=\"document-title\"]",
+      disabled: true,
+    },
+    {
+      command: "notebook:disable-output-scrolling",
+      selector: ".jp-Notebook",
+      disabled: false,
+    },
+    {
+      command: "docmanager:clone",
+      selector: "[data-type=\"document-title\"]",
+      disabled: false,
+    },
+    {
+      command: "docmanager:show-in-file-browser",
+      selector: "[data-type=\"document-title\"]",
+      disabled: false,
+    },
+    {
+      command: "console:restart-kernel",
+      selector: ".jp-CodeConsole",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-Notebook",
+      disabled: false,
+    },
+    {
+      command: "notebook:undo-cell-action",
+      selector: ".jp-Notebook",
+      disabled: false,
+    },
+    {
+      command: "notebook:redo-cell-action",
+      selector: ".jp-Notebook",
+      disabled: false,
+    },
+    {
+      command: "notebook:restart-kernel",
+      selector: ".jp-Notebook",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-Notebook",
+      disabled: false,
+    },
+    {
+      command: "notebook:create-console",
+      selector: ".jp-Notebook",
+      disabled: false,
+    },
+    {
+      type: "separator",
+      selector: ".jp-DirListing-item[data-isdir]",
+      disabled: false,
+    },
+    {
+      command: "inspector:open",
+      selector: ".jp-Notebook",
+      disabled: false,
+    },
+    {
+      command: "notebook:create-new",
+      selector: ".jp-DirListing-content",
+      disabled: false,
+      args: {
+        isContextMenu: true,
+      },
+    },
+    {
+      command: "logconsole:open",
+      selector: ".jp-Notebook",
+      disabled: false,
+    },
+    {
+      command: "sidebar:switch",
+      selector: ".jp-SideBar .lm-TabBar-tab",
+      disabled: false,
+    },
+    {
+      command: "__internal:context-menu-info",
+      selector: "body",
+      disabled: false,
+    },
+    {
+      command: "markdownviewer:edit",
+      selector: ".jp-RenderedMarkdown",
+      disabled: false,
+    },
+    {
+      command: "toc:run-cells",
+      selector: ".jp-TableOfContents-content[data-document-type=\"notebook\"] .jp-tocItem",
+      disabled: false,
+    },
+    {
+      command: "application:toggle-mode",
+      selector: ".jp-Activity",
+      disabled: false,
+    },
+    {
+      command: "application:toggle-header",
+      selector: ".jp-Activity",
+      disabled: false,
+    },
+    {
+      command: "application:toggle-side-tabbar",
+      selector: ".jp-Activity",
+      disabled: false,
+      args: {
+        side: "left",
+      },
+    },
+    {
+      command: "application:toggle-left-area",
+      selector: ".jp-Activity",
+      disabled: false,
+    },
+    {
+      command: "application:toggle-right-area",
+      selector: ".jp-Activity",
+      disabled: false,
+    },
+    {
+      command: "application:toggle-side-tabbar",
+      selector: ".jp-Activity",
+      disabled: false,
+      args: {
+        side: "right",
+      },
+    },
+    {
+      command: "application:statusbar-toggle",
+      selector: ".jp-Activity",
+      disabled: false,
+    },
+  ],
+}

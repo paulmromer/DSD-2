@@ -1,0 +1,8 @@
+toolbar = [
+    { name = "new-launcher", command = "launcher:create", rank = 1 },
+    { name = "new-directory", command = "filebrowser:create-new-directory", rank = 10 },
+    { name = "uploader", rank = 20 },
+    { name = "refresh", command = "filebrowser:refresh", rank = 30 },
+    { name = "gitClone", args = {}, command = "", disabled = true, rank = 31 },
+    { name = "toggle-file-filter", command = "filebrowser:toggle-file-filter", rank = 40 },
+]

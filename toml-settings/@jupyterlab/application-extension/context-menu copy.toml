@@ -1,0 +1,497 @@
+[[contextMenu]]
+command = "shortcuts:edit-keybinding"
+selector = ".jp-Shortcuts-ShortcutKeysContainer"
+disabled = false
+
+[[contextMenu]]
+command = "running:kernel-new-console"
+selector = ".jp-RunningSessions-item.jp-mod-kernel"
+disabled = false
+
+[[contextMenu]]
+command = "workspace-ui:clone"
+selector = ".jp-RunningSessions-item.jp-mod-workspace"
+rank = 0
+disabled = false
+
+[[contextMenu]]
+command = "fileeditor:undo"
+selector = ".jp-FileEditor"
+disabled = false
+
+[[contextMenu]]
+command = "shortcuts:delete-keybinding"
+selector = ".jp-Shortcuts-ShortcutKeysContainer"
+disabled = false
+
+[[contextMenu]]
+command = "console:undo"
+selector = ".jp-CodeConsole-promptCell"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:cut-cell"
+selector = ".jp-Notebook .jp-Cell"
+disabled = false
+
+[[contextMenu]]
+command = "running:kernel-new-notebook"
+selector = ".jp-RunningSessions-item.jp-mod-kernel"
+disabled = false
+
+[[contextMenu]]
+command = "terminal:copy"
+selector = ".jp-Terminal"
+disabled = false
+
+[[contextMenu]]
+command = "workspace-ui:rename"
+selector = ".jp-RunningSessions-item.jp-mod-workspace"
+disabled = false
+
+[[contextMenu]]
+type = "submenu"
+selector = ".jp-DirListing-item[data-isdir=\"false\"]"
+disabled = false
+
+[contextMenu.submenu]
+id = "jp-contextmenu-open-with"
+label = "Open With"
+items = []
+
+[[contextMenu]]
+command = "filebrowser:open-browser-tab"
+selector = ".jp-DirListing-item[data-isdir=\"false\"]"
+disabled = false
+
+[[contextMenu]]
+command = "fileeditor:redo"
+selector = ".jp-FileEditor"
+disabled = false
+
+[[contextMenu]]
+command = "shortcuts:add-keybinding"
+selector = ".jp-Shortcuts-Row"
+disabled = false
+
+[[contextMenu]]
+command = "console:redo"
+selector = ".jp-CodeConsole-promptCell"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:copy-cell"
+selector = ".jp-Notebook .jp-Cell"
+disabled = false
+
+[[contextMenu]]
+command = "terminal:paste"
+selector = ".jp-Terminal"
+disabled = false
+
+[[contextMenu]]
+command = "workspace-ui:reset"
+selector = ".jp-RunningSessions-item.jp-mod-workspace"
+disabled = false
+
+[[contextMenu]]
+command = "fileeditor:cut"
+selector = ".jp-FileEditor"
+disabled = false
+
+[[contextMenu]]
+command = "shortcuts:toggle-selectors"
+selector = ".jp-Shortcuts-Top"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:paste-cell-below"
+selector = ".jp-Notebook .jp-Cell"
+disabled = false
+
+[[contextMenu]]
+type = "submenu"
+selector = ".jp-RunningSessions-item.jp-mod-kernel"
+disabled = false
+
+[contextMenu.submenu]
+id = "jp-contextmenu-connected-sessions"
+label = "Connected Sessions…"
+items = []
+
+[[contextMenu]]
+command = "terminal:refresh"
+selector = ".jp-Terminal"
+disabled = false
+
+[[contextMenu]]
+command = "workspace-ui:delete"
+selector = ".jp-RunningSessions-item.jp-mod-workspace"
+disabled = false
+
+[[contextMenu]]
+command = "fileeditor:copy"
+selector = ".jp-FileEditor"
+disabled = false
+
+[[contextMenu]]
+command = "shortcuts:reset-all"
+selector = ".jp-Shortcuts-Top"
+disabled = false
+
+[[contextMenu]]
+command = "application:close"
+selector = "#jp-main-dock-panel .lm-DockPanel-tabBar .lm-TabBar-tab"
+disabled = false
+
+[[contextMenu]]
+command = "application:close-other-tabs"
+selector = "#jp-main-dock-panel .lm-DockPanel-tabBar .lm-TabBar-tab"
+disabled = false
+
+[[contextMenu]]
+command = "application:close-all"
+selector = "#jp-main-dock-panel .lm-DockPanel-tabBar .lm-TabBar-tab"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-DirListing-item[data-isdir]"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-Notebook .jp-Cell"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-RunningSessions-item.jp-mod-kernel"
+disabled = false
+
+[[contextMenu]]
+command = "workspace-ui:export"
+selector = ".jp-RunningSessions-item.jp-mod-workspace"
+disabled = false
+
+[[contextMenu]]
+command = "fileeditor:paste"
+selector = ".jp-FileEditor"
+disabled = false
+
+[[contextMenu]]
+command = "application:close-right-tabs"
+selector = "#jp-main-dock-panel .lm-DockPanel-tabBar .lm-TabBar-tab"
+disabled = false
+
+[[contextMenu]]
+command = "inspector:open"
+selector = ".jp-CodeConsole-promptCell"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:delete-cell"
+selector = ".jp-Notebook .jp-Cell"
+disabled = false
+
+[[contextMenu]]
+command = "running:kernel-shut-down"
+selector = ".jp-RunningSessions-item.jp-mod-kernel"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-RunningSessions-item.jp-mod-workspace"
+disabled = false
+
+[[contextMenu]]
+command = "fileeditor:select-all"
+selector = ".jp-FileEditor"
+disabled = false
+
+[[contextMenu]]
+command = "recentmenu:reopen-last"
+selector = "#jp-main-dock-panel .lm-DockPanel-tabBar .lm-TabBar-tab"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-Notebook .jp-Cell"
+disabled = false
+
+[[contextMenu]]
+command = "workspace-ui:import"
+selector = ".jp-RunningSessions-section:has(.jp-mod-workspace)"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:split-cell-at-cursor"
+selector = ".jp-Notebook .jp-Cell"
+disabled = false
+
+[[contextMenu]]
+command = "workspace-ui:create-new"
+selector = ".jp-RunningSessions-section:has(.jp-mod-workspace)"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:merge-cells"
+selector = ".jp-Notebook .jp-Cell"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:merge-cell-above"
+selector = ".jp-Notebook .jp-Cell"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:merge-cell-below"
+selector = ".jp-Notebook .jp-Cell"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-Notebook .jp-Cell"
+disabled = false
+
+[[contextMenu]]
+command = "fileeditor:create-console"
+selector = ".jp-FileEditor"
+disabled = false
+
+[[contextMenu]]
+command = "filemenu:create-console"
+selector = "[data-type=\"document-title\"].jp-mod-current"
+disabled = false
+
+[[contextMenu]]
+command = "console:clear"
+selector = ".jp-CodeConsole-content"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-DirListing-item[data-isdir]"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:create-output-view"
+selector = ".jp-Notebook .jp-CodeCell"
+disabled = false
+
+[[contextMenu]]
+command = "filebrowser:shutdown"
+selector = ".jp-DirListing-item[data-isdir=\"false\"].jp-mod-running"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-Notebook .jp-CodeCell"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-DirListing-item[data-isdir]"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".MathJax"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:clear-cell-output"
+selector = ".jp-Notebook .jp-CodeCell"
+disabled = false
+
+[[contextMenu]]
+command = "mathjax:clipboard"
+selector = ".MathJax"
+disabled = false
+
+[[contextMenu]]
+command = "mathjax:scale"
+selector = ".MathJax"
+disabled = false
+
+[[contextMenu]]
+command = "mathjax:scale"
+selector = ".MathJax"
+disabled = false
+
+[contextMenu.args]
+scale = 1.5
+
+[[contextMenu]]
+type = "separator"
+selector = ".MathJax"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:clear-all-cell-outputs"
+selector = ".jp-Notebook"
+disabled = false
+
+[[contextMenu]]
+command = "docmanager:rename"
+selector = "[data-type=\"document-title\"]"
+disabled = false
+
+[[contextMenu]]
+command = "console:toggle-show-all-kernel-activity"
+selector = ".jp-CodeConsole"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-Notebook"
+disabled = false
+
+[[contextMenu]]
+command = "docmanager:duplicate"
+selector = "[data-type=\"document-title\"]"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:enable-output-scrolling"
+selector = ".jp-Notebook"
+disabled = false
+
+[[contextMenu]]
+command = "docmanager:delete"
+selector = "[data-type=\"document-title\"]"
+disabled = true
+
+[[contextMenu]]
+command = "notebook:disable-output-scrolling"
+selector = ".jp-Notebook"
+disabled = false
+
+[[contextMenu]]
+command = "docmanager:clone"
+selector = "[data-type=\"document-title\"]"
+disabled = false
+
+[[contextMenu]]
+command = "docmanager:show-in-file-browser"
+selector = "[data-type=\"document-title\"]"
+disabled = false
+
+[[contextMenu]]
+command = "console:restart-kernel"
+selector = ".jp-CodeConsole"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-Notebook"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:undo-cell-action"
+selector = ".jp-Notebook"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:redo-cell-action"
+selector = ".jp-Notebook"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:restart-kernel"
+selector = ".jp-Notebook"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-Notebook"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:create-console"
+selector = ".jp-Notebook"
+disabled = false
+
+[[contextMenu]]
+type = "separator"
+selector = ".jp-DirListing-item[data-isdir]"
+disabled = false
+
+[[contextMenu]]
+command = "inspector:open"
+selector = ".jp-Notebook"
+disabled = false
+
+[[contextMenu]]
+command = "notebook:create-new"
+selector = ".jp-DirListing-content"
+disabled = false
+
+[contextMenu.args]
+isContextMenu = true
+
+[[contextMenu]]
+command = "logconsole:open"
+selector = ".jp-Notebook"
+disabled = false
+
+[[contextMenu]]
+command = "sidebar:switch"
+selector = ".jp-SideBar .lm-TabBar-tab"
+disabled = false
+
+[[contextMenu]]
+command = "__internal:context-menu-info"
+selector = "body"
+disabled = false
+
+[[contextMenu]]
+command = "markdownviewer:edit"
+selector = ".jp-RenderedMarkdown"
+disabled = false
+
+[[contextMenu]]
+command = "toc:run-cells"
+selector = ".jp-TableOfContents-content[data-document-type=\"notebook\"] .jp-tocItem"
+disabled = false
+
+[[contextMenu]]
+command = "application:toggle-mode"
+selector = ".jp-Activity"
+disabled = false
+
+[[contextMenu]]
+command = "application:toggle-header"
+selector = ".jp-Activity"
+disabled = false
+
+[[contextMenu]]
+command = "application:toggle-side-tabbar"
+selector = ".jp-Activity"
+disabled = false
+
+[contextMenu.args]
+side = "left"
+
+[[contextMenu]]
+command = "application:toggle-left-area"
+selector = ".jp-Activity"
+disabled = false
+
+[[contextMenu]]
+command = "application:toggle-right-area"
+selector = ".jp-Activity"
+disabled = false
+
+[[contextMenu]]
+command = "application:toggle-side-tabbar"
+selector = ".jp-Activity"
+disabled = false
+
+[contextMenu.args]
+side = "right"
+
+[[contextMenu]]
+command = "application:statusbar-toggle"
+selector = ".jp-Activity"
+disabled = false

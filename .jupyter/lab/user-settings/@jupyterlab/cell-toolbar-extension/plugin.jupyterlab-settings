@@ -1,0 +1,48 @@
+{
+  showToolbar: false,
+  toolbar: [
+    {
+      name: "duplicate-cell",
+      command: "notebook:duplicate-below",
+      disabled: true,
+      rank: 50,
+      args: {},
+    },
+    {
+      name: "move-cell-up",
+      command: "notebook:move-cell-up",
+      disabled: true,
+      rank: 50,
+      args: {},
+    },
+    {
+      name: "move-cell-down",
+      command: "notebook:move-cell-down",
+      disabled: true,
+      rank: 50,
+      args: {},
+    },
+    {
+      name: "insert-cell-above",
+      command: "notebook:insert-cell-above",
+      disabled: true,
+      rank: 50,
+      args: {},
+    },
+    {
+      name: "insert-cell-below",
+      command: "notebook:insert-cell-below",
+      disabled: true,
+      rank: 50,
+      args: {},
+    },
+    {
+      command: "notebook:delete-cell",
+      icon: "ui-components:delete",
+      name: "delete-cell",
+      disabled: true,
+      rank: 50,
+      args: {},
+    },
+  ],
+}

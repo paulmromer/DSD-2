@@ -1,0 +1,14 @@
+{
+  toolbar: [
+    {
+      name: "spacer",
+      type: "spacer",
+      rank: 50,
+    },
+    {
+      name: "workspaceIndicator",
+      rank: 1000,
+      disabled: false,
+    },
+  ],
+}
