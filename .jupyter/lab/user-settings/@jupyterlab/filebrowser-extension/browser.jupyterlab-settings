@@ -1,19 +1,65 @@
 {
-  allowFileUploads: true,
-  autoOpenUploads: false,
-  filterDirectories: true,
-  maxAutoOpenSizeMB: 50,
-  navigateToCurrentDirectory: true,
-  showFileCheckboxes: false,
-  showFileSizeColumn: false,
-  showFullPath: true,
-  showHiddenFiles: true,
-  showLastModifiedColumn: true,
-  singleClickNavigation: true,
-  sortNotebooksFirst: true,
-  useFuzzyFilter: false,
-  breadcrumbs: {
-    minimumLeftItems: 0,
-    minimumRightItems: 2,
-  },
+    // File Browser
+    // @jupyterlab/filebrowser-extension:browser
+    // File Browser settings.
+    // *****************************************
+
+    // Allow file uploads
+    // Whether to allow uploading files
+    "allowFileUploads": true,
+
+    // Auto-open uploads
+    // Automatically open uploaded notebooks and supported files
+    "autoOpenUploads": false,
+
+    // Breadcrumbs
+    // Settings related to breadcrumbs display and behavior.
+    "breadcrumbs": {
+        "minimumLeftItems": 0,
+        "minimumRightItems": 2
+    },
+
+    // Filter folders
+    // Whether to apply the search on folders
+    "filterDirectories": true,
+
+    // Max auto-open size
+    // Maximum file size (MB) to auto-open files on upload
+    "maxAutoOpenSizeMB": 50,
+
+    // Navigate to current folder
+    // Whether to automatically navigate to a document's current folder
+    "navigateToCurrentDirectory": true,
+
+    // Use checkboxes to select items
+    // Whether to show checkboxes next to files and folders
+    "showFileCheckboxes": false,
+
+    // Show file size column
+    // Whether to show the file size column
+    "showFileSizeColumn": false,
+
+    // Show full path in browser bread crumbs
+    // Whether to show full path in browser bread crumbs
+    "showFullPath": true,
+
+    // Show hidden files
+    // Whether to show hidden files. The server parameter `ContentsManager.allow_hidden` must be set to `True` to display hidden files.
+    "showHiddenFiles": true,
+
+    // Show last modified column
+    // Whether to show the last modified column
+    "showLastModifiedColumn": true,
+
+    // Navigate files and directories with single click
+    // Whether to allow single click selection on file browser items
+    "singleClickNavigation": true,
+
+    // When sorting by name, group notebooks before other files
+    // Whether to group the notebooks away from files
+    "sortNotebooksFirst": true,
+
+    // Filter on file name with a fuzzy search
+    // Whether to apply fuzzy algorithm while filtering on file names
+    "useFuzzyFilter": false
 }

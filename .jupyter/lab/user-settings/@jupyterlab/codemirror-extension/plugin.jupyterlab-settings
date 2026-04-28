@@ -1,5 +1,23 @@
 {
-  defaultConfig: {
-    codeFolding: false,
-  },
+    "defaultConfig": {
+        "gennaker-tools:snippets": {
+            "snippets": [
+                {
+                    "type": "text",
+                    "body": "\\, \\tiny\\unicode[Menlo]{x0025}\\normalsize \\;\\;",
+                    "label": "%"
+                },
+                {
+                    "type": "text",
+                    "body": "\\, \\tiny\\unicode[Menlo]{x0040}\\normalsize \\;\\;",
+                    "label": "@"
+                },
+                {
+                    "type": "constant",
+                    "body": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+                    "label": "as"
+                }
+            ]
+        }
+    }
 }

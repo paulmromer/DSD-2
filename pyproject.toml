@@ -12,10 +12,12 @@ dependencies = [
     "isort",
     "jupyterlab-lsp",
     "python-lsp-server[all]>=1.13.1",
-    "jupyterlab-quickopen",
+    "matplotlib",
+    # "jupyterlab-quickopen",
     "gennaker-tufte",
-    "copykitten",
-    "gennaker-tools",
+    # "copykitten",
+    # "matplotlib",
+    # "gennaker-tools",
     ]
 
 

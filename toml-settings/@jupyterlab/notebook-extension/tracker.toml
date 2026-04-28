@@ -20,7 +20,7 @@ showMinimap = false
 sideBySideLeftMarginOverride = "10px"
 sideBySideOutputRatio = 1
 sideBySideRightMarginOverride = "10px"
-windowingMode = "defer"
+windowingMode = "none"
 useSystemClipboardForCells = false
 
 [codeCellConfig]

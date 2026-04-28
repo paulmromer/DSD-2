@@ -1,0 +1,13 @@
+{
+  "shell_port": 51939,
+  "iopub_port": 51940,
+  "stdin_port": 51941,
+  "control_port": 51943,
+  "hb_port": 51942,
+  "ip": "127.0.0.1",
+  "key": "008e46ff-7320eb306887f5de9750c4a2",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/Users/pr/Gennaker/DSD-2/Files/point.ipynb"
+}

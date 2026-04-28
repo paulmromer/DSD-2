@@ -1,0 +1,5 @@
+[preferences.default_formatter]
+python = [
+    "isort",
+    "black",
+]
